@@ -1,0 +1,20 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Demonfall GUI collection", "Sentinel")
+
+local Main = Window:NewTab("Main")
+local Section = Main:NewSection("Section")
+
+Section:NewButton("Furious hub", "for autofarm and autobreathing", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/StepBroFurious/Script/main/FuriousFall.lua"))()
+end)
+
+Section:NewButton("Ghosthub", "God mode and teleports", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ghost-home/public/main/demonfall.lua', true))() 
+end)
+
+Section:NewButton("Leahub", "no hit cooldown, no trees", function()
+    --Discord: https://discord.gg/ve8uSveEBV
+--made by CandyLean#2645
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KeoneGithub/KeoneGithub/main/DemonCockCandy"))()
+--updated 1/24/22 and working fine!
+end)
